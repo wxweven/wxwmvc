@@ -48,4 +48,6 @@
 ### mybatis-generator
 
 #### 利用[mybatis-generator(MBG)][6] 生成`model/mapper/mapper.xml`文件
-Mybatis考虑到手写XML文件的繁琐，因此开发了MBG工具，通用Mapper这个项目再次简化了mybatis的生成代码数量。运maven mybatis-generator:generate 生成，具体配置参见 `src/test/resources/mybatis-generator/generatorConfig.xml`文件
+Mybatis考虑到手写XML文件的繁琐，因此开发了MBG工具，通用Mapper这个项目再次简化了mybatis的生成代码数量。
+运行maven mybatis-generator:generate 生成，
+具体配置参见 `src/test/resources/mybatis-generator/generatorConfig.xml`文件
