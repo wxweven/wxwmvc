@@ -14,15 +14,15 @@
 
 ##### 工具框架
 * **Spring-Test** :包括了常用单元测试、集成测试、Web测试，`Src/Test/Java`下有几个简单的测试类。使用测试框架的好处就是节省时间，无需启动Server就能测试程序。
-* **Mybatis-Pagehelper** :Mybatis的分页排序插件，由国人开发，用起来非常方便，[Mybatis-Pagehelperp][2] 项目主页。
-* **Mybatis通用Mapper3** 也是有上面作者开发，极其方便的使用Mybatis单表的增删改查，如果是单表操作，基本不用写Mapper文件,[Mybatis通用Mapper3][3] 项目主页。
+* **Mybatis-Pagehelper** :Mybatis的分页排序插件，由国人开发，用起来非常方便，[Mybatis-Pagehelperp] 项。
+* **Mybatis通用Mapper3** 也是有上面作者开发，极其方便的使用Mybatis单表的增删改查，如果是单表操作，基本不用写Mapper文件,[Mybatis通用Mapper3]。
 * **Spring-Mail**： 可修改`/src/main/resource/mail-config.properties`配置文件，这个配置文件配置的是主邮箱。
 * **commons fileupload**:`spring mvc`中集成了`appache-commons-fileupload`上传组件。上传处理更便捷。
 
 
 #### 开发工具
 ##### IDE
-本项目默认以用`Eclipse`，也可以用[Intellij Idea][1]
+本项目默认以用`Eclipse`，也可以用[Intellij Idea]
 ##### 依赖管理工具
 本项目默认使用`Maven`容易上手，也可以尝试`Gradle`
 
@@ -47,7 +47,7 @@
 
 ### mybatis-generator
 
-#### 利用[mybatis-generator(MBG)][6] 生成`model/mapper/mapper.xml`文件
+#### 利用[mybatis-generator(MBG)] 生成`model/mapper/mapper.xml`文件
 Mybatis考虑到手写XML文件的繁琐，因此开发了MBG工具，通用Mapper这个项目再次简化了mybatis的生成代码数量。
 运行maven mybatis-generator:generate 生成，
 具体配置参见 `src/test/resources/mybatis-generator/generatorConfig.xml`文件
