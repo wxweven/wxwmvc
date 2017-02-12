@@ -7,7 +7,7 @@
 ##### 主要框架
 * **Spring**: 不多说，貌似JavaEE离不开他了。
 * **Springmvc**: 与Spring无缝集成，简单灵活，支持Restful风格。
-* **Mybatis3.3.0** :个人认为比Hibernate好控制，毕竟是自己写的Sql语句。
+* **Mybatis** :个人认为比Hibernate好控制，毕竟是自己写的Sql语句。
 * **Shiro**: Apache的权限管理框架，扩展性好，使用简单，个人认为比`Spring-Security`框架容易入手。
 * **tomcat服务器** : 稳定，性能好，也可以换成jetty。
 * **sf4j** ：支持多种日志系统，使用的是log4j。
